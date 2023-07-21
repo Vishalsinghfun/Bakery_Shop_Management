@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageLogin.master.cs" Inherits="MasterPageLogin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Online Backery</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="truly-simple/style.css" rel="stylesheet" />
+</head>
+<link href="truly-simple/style.css" rel="stylesheet" />
+<body>
+    <div>
+  <div id="top">
+    <h2> Online Bakery </h2>
+    <div id="menu">
+      <ul>
+        <li><a href="HomeLogin.aspx" class="current">Home</a></li>
+        <li><a href="RegistrationUser.aspx">SignUp</a></li>
+          <li><a href="Login.aspx">Login</a></li> 
+        <li><a href="ContactusLogin.aspx">Contact Us</a></li>
+        <li><a href="Aboutus.aspx">About us</a></li>
+
+      </ul>
+    </div>
+  </div>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
